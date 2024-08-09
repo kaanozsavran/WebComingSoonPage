@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <img src="images/logo.png" class="logo">
+        <div class="content">
+            <p>Web Sitemiz Bakımda...</p>
+            <h1><span>Yakında</span> Başlıyoruz!</h1>
+
+            <div class="launch-time">
+                <div>
+                    <p id="days">00</p>
+                    <span>Gün</span>
+                </div>
+                <div>
+                    <p id="hours">00</p>
+                    <span>Saat</span>
+                </div>
+                <div>
+                    <p id="minutes">00</p>
+                    <span>Dakika</span>
+                </div>
+                <div>
+                    <p id="seconds">00</p>
+                    <span>Saniye</span>
+                </div>
+            </div>
+
+            <button type="button" class="btn" onclick="openPopup()">Daha fazla bilgi edinin <img
+                    src="images/triangle.png"></button>
+            <div class="popup" id="popup">
+                <img src="images/tick.png">
+                <h2>Teşekkürler!</h2>
+                <p>Daha fazla bilgi için info@gmail.com ile iletişime geçebilirsiniz.</p>
+                <button type="button" onclick="closePopup()">Tamam</button>
+            </div>
+        </div>
+        <img src="images/rocket.png" class="rocket">
+    </div>
+
+    <script src="myjs.js"></script>
+
+
+</body>
+
+</html>
